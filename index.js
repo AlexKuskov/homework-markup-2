@@ -3,6 +3,6 @@ console.log('object') ;
 
 const sdf = () => {
 
-}
+} ;
 
 sdf() ;

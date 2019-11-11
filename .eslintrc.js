@@ -1,7 +1,7 @@
 module.exports = {
     extends: "standard",
     rules: {
-        "for-direction": 2,
+        "for-direction": "error",
         indent: [
             "error", 
             2, 
@@ -20,7 +20,7 @@ module.exports = {
                 "after": false 
             }
         ],
-        semi: 0,
+        semi: ["error", "always"],
         "arrow-body-style": ["error", "always"]
     }
 }
